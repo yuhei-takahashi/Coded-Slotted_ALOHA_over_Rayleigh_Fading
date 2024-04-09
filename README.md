@@ -12,14 +12,16 @@
 
 # How to cite
 
-If you extend or use this work, please cite the [paper](https://ieeexplore.ieee.org/stamp/redirect.jsp?arnumber=/6287639/6514899/10266359.pdf) where it was introduced:
+If you extend or use this work, please cite the [paper](https://ieeexplore.ieee.org/document/10464976) where it was introduced:
 ```
-@inproceedings{takahashi2023coded,
-  title={Coded Slotted ALOHA over Rayleigh Block Fading Channels: BP Threshold and Converse Bound},
+@INPROCEEDINGS{10464976,
   author={Takahashi, Yuhei and Masuo, Ippei and Song, Guanghui and Kimura, Tomotaka and Cheng, Jun},
-  booktitle={2023 IEEE Globecom Workshops (GC Wkshps)},
-  pages={1523--1528},
+  booktitle={2023 IEEE Globecom Workshops (GC Wkshps)}, 
+  title={Coded Slotted ALOHA over Rayleigh Block Fading Channels: BP Threshold and Converse Bound}, 
   year={2023},
-  organization={IEEE}
-}
+  volume={},
+  number={},
+  pages={1523-1528},
+  keywords={Couplings;Codes;Protocols;Error probability;Rayleigh channels;Interference;Energy efficiency;belief propagation threshold;coded slotted ALOHA;converse bound;Rayleigh fading;spatial coupling},
+  doi={10.1109/GCWkshps58843.2023.10464976}}
 ```

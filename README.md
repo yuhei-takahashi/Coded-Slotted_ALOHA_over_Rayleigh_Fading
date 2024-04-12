@@ -6,13 +6,14 @@
 
 ## Paramaters
 The parameters in the source code are as follows:
-+ Simulation
+**Simulation**
 - ite : # of fading samples
 - SNR : average received SNR per device (dB)
 - M : # of slots
 - K : # of message segments
   
-+ Analysis
+**Analysis**
+後で書く
 
 ## Demo
 ### Simulation

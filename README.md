@@ -5,7 +5,7 @@
 ## Instructions
 
 ## Paramaters
-The parameters in the source code are as follows:
+The parameters in these source codes are as follows:
 
 **Simulation**
 - ite : # of fading samples

@@ -29,6 +29,7 @@ degree distribution of node-perspective
 3 0.0139487
 8 0.024595
 9 0.00443931
+
 G PLR Throughput
 2 0.87893 0.24214
 1.95 0.858964 0.27502

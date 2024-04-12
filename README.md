@@ -12,6 +12,10 @@ Here's how you'd run these codes:
 g++ -o csa c-sa_simulation_main.cpp
 ./csa 10000 dist.txt
 ```
+The first input is the number of slots, and the second input file is the degree distribution.
+
+The execution result is as follows:
+
 
 
 #あとで書く

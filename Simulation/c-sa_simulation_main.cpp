@@ -231,6 +231,8 @@ void file_input(Dist& dist,char c[])
   inputfile >> DL;
   vector<int> l_degree(DL);
   vector<double> l_coef(DL);
+    
+  cout<<"degree distribution of edge-perspective"<< '\n';
   for(int i=0; i<DL; i++)
     {
       inputfile >> l_degree[i] >> l_coef[i];
@@ -238,16 +240,17 @@ void file_input(Dist& dist,char c[])
       lsum+=(l_coef[i]/(l_degree[i]+1));
       rate+=l_degree[i]*l_coef[i];
     }
+  cout<< '\n';
+  cout<<"degree distribution of node-perspective"<< '\n';
   for(int i=0; i<DL; i++)
     {
       cout << l_degree[i]+1 << " " << (l_coef[i]/(l_degree[i]+1))/lsum << '\n';
       dist.add_Ledge(l_degree[i]+1, (l_coef[i]/(l_degree[i]+1))/lsum);
     }
-
+  cout<< '\n';
   inputfile.close();
-
+  
 }
-
 
 void file_output(vector<double>& all_error, vector<double>& loss_trans, Channel& ch, char c[])
 {

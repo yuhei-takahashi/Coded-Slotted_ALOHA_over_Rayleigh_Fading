@@ -15,7 +15,7 @@ The parameters in these source codes are as follows:
 - M : # of slots
 - K : # of message segments
   
-**Analysis**
+<ins>Analysis<ins>
 後で書く
 
 Please, adjust the parameters as needed for your situation.

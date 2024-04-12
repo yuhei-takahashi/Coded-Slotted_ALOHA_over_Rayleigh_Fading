@@ -16,6 +16,8 @@ The parameters in these source codes are as follows:
 **Analysis**
 後で書く
 
+Please, adjust the parameters as needed for your situation.
+
 ## Demo
 ### Simulation
 Here's how you'd run these codes:

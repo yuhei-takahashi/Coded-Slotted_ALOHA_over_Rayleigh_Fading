@@ -282,7 +282,7 @@ int main(int argc, char* argv[])
   
   double packet_error_ratio = 0;
   vector<double> all_error;
-  double trans=3.3;
+  double trans=2;
   vector<double> loss_trans;
   int device = 0;
   RandomNumberGenerator seed1;
@@ -313,7 +313,7 @@ int main(int argc, char* argv[])
       cout << packet_error_ratio/ite << " "<<trans*(1-packet_error_ratio/ite)<< '\n';
       s.reset_seed();
 
-      if(trans <= 2.5) break;
+      if(trans <= 0.05) break;
       trans-=0.05;
     }
  

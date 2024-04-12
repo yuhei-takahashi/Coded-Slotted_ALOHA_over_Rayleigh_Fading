@@ -11,7 +11,6 @@
 #define SNR 20
 #define M 1
 #define sigma_h2 1
-
 #define K 2
 
 int sc;
@@ -20,7 +19,6 @@ int number_segment;
 int constant_times;
 
 using namespace std;
-
 
 class Edge
 {
@@ -34,7 +32,6 @@ public:
       snr = b;
     }
   ~Edge(){}
-
 };
 
 class Slot
@@ -45,9 +42,7 @@ public:
 
   Slot(){}
   ~Slot(){}
-
 };
-
 
 class Device
 {
@@ -55,11 +50,11 @@ public:
   list<Edge> d_edge;
   int counter;
   void add_edge(int,double);
+  
   Device(){
     counter=0;
   }
   ~Device(){}
-
 };
 
 
@@ -74,19 +69,20 @@ public:
   double get_real_number();
   double get_normal_number();
   double exponential_number(double snr);
+  
   void reset_seed()
-    {
-      seed =  rng();
-      mt.seed(seed);
-    }
-  RandomNumberGenerator(){
-      seed=rng();
+  {
+    seed =  rng();
+    mt.seed(seed);
+  }
+  RandomNumberGenerator()
+  {
+    seed=rng();
     mt.seed(seed);
     generate( seed_gen.begin(), seed_gen.end(), ref(mt));
 
   }
   ~RandomNumberGenerator(){}
-
 };
 
 class Channel
@@ -96,8 +92,8 @@ public:
   double R;
   double b;
   double set_epsilon();
-  
   RandomNumberGenerator s;
+  
   Channel(){
     R = 1;
     snr = 1/(pow(10,-1*((double)SNR/10)));
@@ -113,15 +109,17 @@ public:
   int time_slot;
   int device;
   vector<Slot> f_slot;
+  
   void add_slot();
   void add_time_slot(int a)
-    {
-      time_slot = a;
-    }
+  {
+    time_slot = a;
+  }
   void add_device(int a)
-    {
-      device = a;
-    }
+  {
+    device = a;
+  }
+  
   Frame(){}
   ~Frame(){}
 };
@@ -138,7 +136,6 @@ public:
     coef = b;
   }
   ~DistEdge(){}
-  
 };
 
 class Dist
@@ -146,6 +143,7 @@ class Dist
 public:
   vector<DistEdge> lambda;
   vector<DistEdge> rho;
+  
   void add_Ledge(int a, double b)
   {
     lambda.push_back(DistEdge(a,b));
@@ -180,7 +178,6 @@ int RandomNumberGenerator::get_random_number(double a)
 {
   uniform_int_distribution<int> dist(0, a);
   return dist(mt);
-
 }
 
 double RandomNumberGenerator::get_real_number()
@@ -194,8 +191,6 @@ double RandomNumberGenerator::exponential_number(double snr)
   exponential_distribution<> dist(1.0/snr);
   return dist(mt);
 }
-
-
 
 double Channel::set_epsilon()
 {

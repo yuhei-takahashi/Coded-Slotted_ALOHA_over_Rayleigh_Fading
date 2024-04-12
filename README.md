@@ -15,7 +15,27 @@ g++ -o csa c-sa_simulation_main.cpp
 The first input is the number of slots, and the second input file is the degree distribution.
 
 The execution result is as follows:
+```
+degree distribution of edge-perspective
+0 0.654475
+1 0.135331
+2 0.031576
+7 0.14847
+8 0.0301481
 
+degree distribution of node-perspective
+1 0.867343
+2 0.0896737
+3 0.0139487
+8 0.024595
+9 0.00443931
+G PLR Throughput
+2 0.87893 0.24214
+1.95 0.858964 0.27502
+1.9 0.840547 0.30296
+1.85 0.815203 0.341875
+...
+```
 
 
 #あとで書く

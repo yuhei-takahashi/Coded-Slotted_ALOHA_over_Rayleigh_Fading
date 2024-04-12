@@ -9,7 +9,7 @@
 
 #define ite 10000
 #define SNR 20
-#define M 14
+#define M 1
 #define sigma_h2 1
 
 #define K 2

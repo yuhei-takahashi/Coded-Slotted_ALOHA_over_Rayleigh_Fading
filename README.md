@@ -1,13 +1,21 @@
-# Abstract
+## Abstract
 
-#あとで書く
+あとで書く
 
-# Instructions
+## Instructions
 
-#あとで書く
+## Paramaters
+The parameters in the source code are as follows:
++ Simulation
+- ite : # of fading samples
+- SNR : average received SNR per device (dB)
+- M : # of slots
+- K : # of message segments
+  
++ Analysis
 
-# Demo
-## Simulation
+## Demo
+### Simulation
 Here's how you'd run these codes:
 ```
 g++ -o csa c-sa_simulation_main.cpp
@@ -39,10 +47,10 @@ G PLR Throughput
 ...
 ```
 
-## Analysis
+### Analysis
 #あとで書く
 
-# How to cite
+## How to cite
 
 If you extend or use this work, please cite the [paper](https://ieeexplore.ieee.org/document/10464976) where it was introduced:
 ```

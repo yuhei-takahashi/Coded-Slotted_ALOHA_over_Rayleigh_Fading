@@ -2,9 +2,16 @@
 
 あとで書く
 
-## Instructions
-開発環境など
-
+## Development environment
+```
+~ % xcodebuild -version
+Xcode 15.3
+Build version 15E204a
+~ % c++ --version
+Apple clang version 15.0.0 (clang-1500.3.9.4)
+Target: x86_64-apple-darwin23.4.0
+Thread model: posix
+```
 
 ## Paramaters
 The parameters in these source codes are as follows:

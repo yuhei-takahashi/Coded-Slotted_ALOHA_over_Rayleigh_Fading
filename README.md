@@ -7,6 +7,12 @@
 #あとで書く
 
 # Demo
+Here's how you'd run these codes:
+```
+g++ -o csa c-sa_simulation_main.cpp
+./csa 10000 dist.txt
+```
+
 
 #あとで書く
 

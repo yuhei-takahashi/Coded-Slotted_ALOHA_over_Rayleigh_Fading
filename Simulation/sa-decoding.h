@@ -53,10 +53,10 @@ class Device
 {
 public:
   list<Edge> d_edge;
-  int counter;  //intra sic sareta segment su no counter
+  int counter;
   void add_edge(int,double);
   Device(){
-    counter=0;  //shokika
+    counter=0;
   }
   ~Device(){}
 

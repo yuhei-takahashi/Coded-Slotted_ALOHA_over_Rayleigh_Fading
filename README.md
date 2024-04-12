@@ -9,7 +9,7 @@
 ## Paramaters
 The parameters in these source codes are as follows:
 
-**Simulation**
+<ins>Simulation<ins>
 - ite : # of fading samples
 - SNR : average received SNR per device (dB)
 - M : # of slots

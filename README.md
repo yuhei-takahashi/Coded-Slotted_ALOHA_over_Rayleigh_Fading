@@ -5,7 +5,7 @@
 This repository provides C++ implementations for C-SA (Coded Slotted ALOHA) system over Rayleigh fading channels.
 
 ### Overview of what is provided
-- Simulation
+- Monte Carlo Simulation
 - Density Evolution
 
 ## Development environment

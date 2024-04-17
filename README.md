@@ -25,7 +25,7 @@ The parameters in these source codes are as follows:
 <ins>Simulation<ins>
 - ite : # of fading samples
 - SNR : average received SNR per device (dB)
-- M : # of slots
+- M : M+1 collisions wihtin a slot
 - K : # of message segments
   
 <ins>Analysis<ins>

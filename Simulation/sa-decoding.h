@@ -7,7 +7,10 @@
 #include <algorithm>
 #include <functional>
 
-#define ite 10000
+#ifndef CSA
+#define CSA
+
+#define ite 10
 #define SNR 20
 #define M 1
 #define sigma_h2 1
@@ -199,3 +202,4 @@ double Channel::set_epsilon()
   else eps=1.0;
   return eps;
 }
+#endif

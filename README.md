@@ -72,6 +72,12 @@ G PLR Throughput
 
 #あとで書く
 
+
+##Result
+
+#あとで結果のグラフ1例をここに貼る
+
+
 ## How to cite
 
 If you extend or use this work, please cite the [paper](https://ieeexplore.ieee.org/document/10464976) where it was introduced:

@@ -73,7 +73,7 @@ G PLR Throughput
 #あとで書く
 
 
-##Result
+## Result
 
 #あとで結果のグラフ1例をここに貼る
 

@@ -27,6 +27,7 @@ The parameters in these source codes are as follows:
 - SNR : average received SNR per device (dB)
 - M : M+1 collisions wihtin a slot
 - K : # of message segments
+- trans : transmission packet per slot
   
 <ins>Analysis<ins>
 

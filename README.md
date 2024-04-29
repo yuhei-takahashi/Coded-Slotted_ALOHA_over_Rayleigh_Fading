@@ -75,7 +75,7 @@ G PLR Throughput
 
 ## Result
 
-#あとで結果のグラフ1例をここに貼る
+![result](result.png)
 
 
 ## How to cite

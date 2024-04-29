@@ -75,8 +75,7 @@ G PLR Throughput
 
 ## Result
 
-![result](result.png)
-
+<img src="result.png" width="50%">
 
 ## How to cite
 

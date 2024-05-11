@@ -30,8 +30,9 @@ The parameters in these source codes are as follows:
 - trans : transmission packets per slot
   
 <ins>Analysis<ins>
-
-後で書く
+- SNR : average received SNR per device (dB)
+- M : M+1 collisions wihtin a slot
+- IS : # of message segments
 
 Please, adjust the parameters as needed for your situation.
 
@@ -71,7 +72,14 @@ G PLR Throughput
 
 <ins>Analysis<ins>
 
-#あとで書く
+First, you need to optimize the degree distribution, and the method for compiling it is as follows: using Differential Evolution.
+```
+g++ -o de Differential_Evolution.cpp
+./de
+initialize distribution
+```
+
+
 
 
 ## Result

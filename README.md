@@ -72,11 +72,11 @@ G PLR Throughput
 
 <ins>Analysis<ins>
 
-First, you need to optimize the degree distribution, and the method for compiling it is as follows: using Differential Evolution.
+
+Here's how you'd run these codes:
 ```
-g++ -o de Differential_Evolution.cpp
-./de
-initialize distribution
+g++ -o csa c-sa_analysis_main.cpp
+./csa dist.txt
 ```
 
 

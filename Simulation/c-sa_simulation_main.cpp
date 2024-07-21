@@ -282,7 +282,7 @@ int main(int argc, char* argv[])
   
   double packet_error_ratio = 0;
   vector<double> all_error;
-  double trans=2;
+  double trans=3.5;
   vector<double> loss_trans;
   int device = 0;
   RandomNumberGenerator seed1;

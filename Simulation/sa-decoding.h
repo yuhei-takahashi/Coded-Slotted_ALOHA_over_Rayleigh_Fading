@@ -10,7 +10,7 @@
 #ifndef CSA
 #define CSA
 
-#define ite 10
+#define ite 10000
 #define SNR 20
 #define M 1  // M=kappa-1
 #define sigma_h2 1

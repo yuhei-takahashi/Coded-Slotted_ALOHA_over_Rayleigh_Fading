@@ -12,7 +12,7 @@
 
 #define ite 10
 #define SNR 20
-#define M 1
+#define M 1  // M=kappa-1
 #define sigma_h2 1
 #define K 2
 
